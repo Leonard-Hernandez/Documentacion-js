@@ -34,14 +34,13 @@ body{
     list-style: none;
     position: relative;
     width: 100%;
-    padding: 15px;
- 
+    padding: 15px    
 }
 #navbar a{
     text-decoration: none;
-    color: white;
+    color: white;    
 }
-#navbar a{
+#navbar a:active{
     text-decoration: none;
     color: white;
 }
@@ -108,11 +107,14 @@ code{
         height: 57%;
     }
 
+    #navbar li{
+
+    }
+
     #main-doc{
         margin-top: 250px; 
         display: block;
-        width: 100%;
         margin-left: 0;
     }
     
-  }
+  }  
